@@ -13,6 +13,8 @@ class ViewController: UITableViewController {
         navigationController?.navigationBar.addSubview(progressView)
         
         downloadRepositories("ashfurrow")
+        downloadRepositories("sseen")
+        downloadRepositories("onevcat")
     }
 
     fileprivate func showAlert(_ title: String, message: String) {
